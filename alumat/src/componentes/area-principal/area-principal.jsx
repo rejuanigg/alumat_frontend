@@ -1,4 +1,5 @@
 import './area-principal.css';
+import Tarjeta from '../tarjeta/tarjeta';
 
 function AreaPrincipal() {
   return (
