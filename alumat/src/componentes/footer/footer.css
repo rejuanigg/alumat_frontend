@@ -1,0 +1,26 @@
+.contenedor {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.imagen{
+    height: 300px;
+    width: 300px;
+    background-color: red;   
+}
+
+.contenedor--lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor--lista__item {
+
+}
