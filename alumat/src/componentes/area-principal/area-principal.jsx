@@ -16,30 +16,31 @@ function AreaPrincipal() {
 
       <section className="modulos">
 
-        <article className="tarjeta">
-          <h3>Gestión de Clientes</h3>
-          <p>Permite registrar, modificar, buscar y listar clientes.</p>
-        </article>
+        <Tarjeta
+          titulo="Gestión de Clientes"
+          descripcion="Permite registrar, modificar, buscar y listar clientes."
+          principal
+        />
+        <Tarjeta
+          titulo="Gestión de Productos"
+          descripcion="Permite registrar, modificar y consultar productos."
+        />
 
-        <article className="tarjeta">
-          <h3>Gestión de Productos</h3>
-          <p>Permite registrar, modificar y consultar productos.</p>
-        </article>
+        <Tarjeta
+          titulo="Gestión de Stock"
+          descripcion="Permite registrar y consultar el stock de productos y materiales."
+        />
 
-        <article className="tarjeta">
-          <h3>Gestión de Stock</h3>
-          <p>Permite registrar y consultar el stock de productos y materiales.</p>
-        </article>
+        <Tarjeta
+          titulo="Gestión de Ventas"
+          descripcion="Permite generar presupuestos, registrar pagos y gestionar ventas."
+          estado="En análisis"
+        />
 
-        <article className="tarjeta">
-          <h3>Gestión de Ventas</h3>
-          <p>Permite generar presupuestos, registrar pagos y gestionar ventas.</p>
-        </article>
-
-        <article className="tarjeta">
-          <h3>Gestión de Usuarios</h3>
-          <p>Permite registrar usuarios, asignar roles y modificar sus datos.</p>
-        </article>
+        <Tarjeta
+          titulo="Gestión de Usuarios"
+          descripcion="Permite registrar usuarios, asignar roles y modificar sus datos."
+        />
 
       </section>
     </main>
