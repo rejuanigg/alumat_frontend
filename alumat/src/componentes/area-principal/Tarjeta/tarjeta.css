@@ -1,0 +1,25 @@
+.tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background: white;
+}
+.destacada {
+    border-color: #22456b;
+    border-width: 2px;
+}
+
+.insignia {
+    display: inline-block;
+    background: #22456b;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+}
+
+.estado {
+    color: #666;
+    font-size: 0.85rem;
+}
+
