@@ -1,5 +1,5 @@
 import './area-principal.css';
-import Tarjeta from '../tarjeta/tarjeta';
+import Tarjeta from './Tarjeta/tarjeta';
 
 function AreaPrincipal() {
   return (
@@ -15,12 +15,11 @@ function AreaPrincipal() {
       <h3>Módulos previstos</h3>
 
       <section className="modulos">
-
         <Tarjeta
           titulo="Gestión de Clientes"
           descripcion="Permite registrar, modificar, buscar y listar clientes."
-          principal
         />
+
         <Tarjeta
           titulo="Gestión de Productos"
           descripcion="Permite registrar, modificar y consultar productos."
@@ -34,14 +33,12 @@ function AreaPrincipal() {
         <Tarjeta
           titulo="Gestión de Ventas"
           descripcion="Permite generar presupuestos, registrar pagos y gestionar ventas."
-          estado="En análisis"
         />
 
         <Tarjeta
           titulo="Gestión de Usuarios"
           descripcion="Permite registrar usuarios, asignar roles y modificar sus datos."
         />
-
       </section>
     </main>
   );
