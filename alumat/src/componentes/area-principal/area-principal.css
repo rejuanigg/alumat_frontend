@@ -1,5 +1,5 @@
 .contenido {
-    padding: 20px;
+    padding: 200px 100px;
     background-color: #011836;
 }
 
@@ -7,6 +7,8 @@
 .contenido h2 {
     color: white;
     margin-bottom: 15px;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 .contenido p {

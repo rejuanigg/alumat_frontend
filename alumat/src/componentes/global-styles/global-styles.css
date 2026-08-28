@@ -1,0 +1,6 @@
+
+.item--hover:hover{
+    background-color: white;
+    color: #011836;
+    border-radius: 10px;
+}
