@@ -1,0 +1,45 @@
+.contenido {
+    padding: 20px;
+}
+
+
+.contenido h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contenido p {
+    color: #e0e0e0;
+    line-height: 1.5;
+}
+
+.contenido h3 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: white;
+    width: 350px;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.tarjeta p {
+    color: #666;
+    font-size: 14px;
+}
