@@ -8,7 +8,6 @@ function Footer() {
             <ul className='contenedor--lista'>
                 <li><a className='contenedor--lista__item item--hover' href="#">Inicio</a></li>
                 <li><a className='contenedor--lista__item item--hover' href="#">Acerca de Nosotros</a></li>
-                <li><a className='contenedor--lista__item item--hover' href="#">Contactanos</a></li>
             </ul>
             <form className='form--container'>
                 <h4 className='form--title'> Suscribete a noticias de Alumat </h4>
