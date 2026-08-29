@@ -1,6 +1,16 @@
 .tarjeta {
-    border: 1px solid #ccc;
+    border: 1px solid #183452;
     border-radius: 8px;
     padding: 16px;
     background: white;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 10px 20px rgba(0, 0, 0, 0.4),
+        0 0 12px rgba(77, 163, 255, 0.2);
 }
