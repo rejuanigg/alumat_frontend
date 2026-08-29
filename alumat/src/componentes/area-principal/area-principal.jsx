@@ -1,16 +1,25 @@
 import './area-principal.css';
 import Tarjeta from './Tarjeta/tarjeta';
-
+import HeroImage from '../../assets/alumat.png'
 function AreaPrincipal() {
   return (
     <main className="contenido">
-      <h2>Sistema de Gestión ALUMAT</h2>
 
-      <p>
-        Sistema para la gestión de una fábrica de aberturas de aluminio.
-        Su objetivo es organizar y facilitar el manejo de la información
-        de la empresa, reduciendo tareas manuales y errores.
-      </p>
+      <div className="hero">
+          <img className="hero--image" src={HeroImage} alt="" />
+
+          <div className="hero--content">
+              <h2>Sistema de Gestión ALUMAT</h2>
+
+              <p>
+                  Sistema para la gestión de una fábrica de aberturas de aluminio.
+                  Su objetivo es organizar y facilitar el manejo de la información
+                  de la empresa, reduciendo tareas manuales y errores.
+              </p>
+          </div>
+      </div>
+
+      
 
       <h3>Módulos previstos</h3>
 
