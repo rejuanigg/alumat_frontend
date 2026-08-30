@@ -5,7 +5,8 @@ Rios Esteban,
 Kevin Zalazar,
 Flores Romina, 
 Andrada Valentina, 
-Carrizo Santino.
+Carrizo Santino,
+Agustin Yurquina.
 
 ## Descripción
 Sistema para la gestión de una fábrica de aberturas de aluminio. 
